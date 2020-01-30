@@ -1,0 +1,16 @@
+{
+ "name":"SNILSUpdate",
+ "description":"---",
+ "type":"project",
+ "require": {
+ "illuminate/database": "^5.4,<5.8",
+ "illuminate/events": "^5.4,<5.8",
+  "phpoffice/phpspreadsheet": "^1.10"
+ },
+ "autoload": {
+ "psr-4" : {
+ "Controllers\\": "app/controllers/",
+ "Models\\": "app/models/"
+ }
+ }
+}
